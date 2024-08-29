@@ -5,8 +5,7 @@ to openEMS, with the ultimate goal of submitting them to the upstream.
 
 # Roadmap
 
-*Sometimes an okay answer NOW! is more important than a good answer late.
-- [Eric Bogatin](https://www.signalintegrityjournal.com/blogs/4-eric-bogatin-signal-integrity-journal-technical-editor/post/1539-bogatins-20-rules-for-engineers)*
+*Sometimes an okay answer NOW! is more important than a good answer late. - [Eric Bogatin](https://www.signalintegrityjournal.com/blogs/4-eric-bogatin-signal-integrity-journal-technical-editor/post/1539-bogatins-20-rules-for-engineers)*
 
 Instead of focusing on finding another great optimization of the FDTD
 algorithm or implementation, the current plan is focusing on small and
