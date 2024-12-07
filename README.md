@@ -18,7 +18,7 @@ engine, which has many adjustable parameters. As an added bonus, unlike
 the current Python module that only accepts hardcoded parameters via
 exposed API, but the new code allows passing arbitrary parameters.
 
-* Status: Merge Ready. PR: https://github.com/thliebig/openEMS/pull/140
+* Status: Merged. PR: https://github.com/thliebig/openEMS/pull/140
 
 ## 2. Rework Engine Dispatch
 
@@ -28,7 +28,7 @@ dispatch to devirtualize the main engine, allowing code inlining. But
 this creates serious code duplication, making further development extremely
 difficult. The proposed patch uses a macro to clean it up.
 
-* Status: Merge Ready. PR: https://github.com/thliebig/openEMS/pull/139
+* Status: Merged. PR: https://github.com/thliebig/openEMS/pull/139
 
 ## 3. Rework CPU detection code.
 
@@ -41,8 +41,18 @@ difficult. The proposed patch uses a macro to clean it up.
 * Benefits: It improves performance by 20% in existing code, without
 changing the existing engines. It's also needed by the upcoming engine.
 
-* Status: WIP.
+* Status: Merge Ready. PR: https://github.com/thliebig/openEMS/pull/161
 
-## 5. First Public Version of Tiling Engine.
+## 5. Bugfix in Reworked Parameter Passing Code
 
-* Status: WIP.
+* Benefits: The new parameter parsing logic introduced several bugs,
+which is fixed in the next PR.
+
+* Status: Merge Ready. PR: https://github.com/thliebig/openEMS/pull/163
+
+## 6. First Public Version of Tiling Engine.
+
+* Status: WIP. Branch: https://github.com/fasterEMS/wipEMS/tree/wipems-tiling-v1
+
+* Warning: Do not use. It's incomplete and broken, wait until this branch enters
+the fasterEMS repo from the wipEMS repo.
